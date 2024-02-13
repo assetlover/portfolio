@@ -1,0 +1,319 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+.navbar {
+    background-color: white;
+}
+.navbar-nav .nav-link {
+    color: black; 
+    padding: 0.5rem 1rem;
+    font-weight: 700; 
+    font-size: 1rem; 
+    text-decoration: none;
+  }
+  
+  .navbar-nav .nav-link:hover {
+    color: white; 
+    background-color: black;
+  }
+  
+  .navbar-brand{
+   font-size: 1.25rem;
+   font-weight: 700;
+   text-decoration: none;
+   cursor: pointer;
+  }
+
+
+  /* main section: */
+.main{
+    /* background-color: black; */
+    background: url(../assets/bg.png)no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+}
+.main h3{
+    font-size: 4.4rem;
+    font-weight: 700
+}
+.main h6{
+    font-size: 1.4rem;
+    text-transform: uppercase;
+    line-height: 1;
+    border-bottom: 3px solid rgb(90, 90, 90);
+    width: 40%;
+    text-align: center;
+    
+}
+.main .bt1{
+    height: 55px;
+    width:138px;
+    background-color: rgb(90, 90, 90);
+    color: white;
+    outline: none;
+    border:none;
+    font-weight: bold;
+    border-radius: 5px;
+}
+.main .bt1:hover{
+    background-color: rgb(60,60,60);
+    transition: 0.5s;
+}
+.main .bt2{
+    height: 55px;
+    width:138px;
+    color: rgb(54, 53, 53);
+    background-color: transparent;
+    outline: none;
+    border:1px solid black;
+    font-weight: bold;
+    border-radius: 5px;
+}
+.main .bt2:hover{
+    background-color: rgb(60,60,60);
+    transition: 0.5s;
+    color:white;
+    transition:0.5s;
+}
+
+.about img{
+    -webkit-box-shadow: 6px 4px 32px -14px rgba(0,0,0,0.75);
+-moz-box-shadow: 6px 4px 32px -14px rgba(0,0,0,0.75);
+box-shadow: 6px 4px 32px -14px rgba(0,0,0,0.75);
+}
+.about h1{
+    font-size:3rem ;
+    font-weight: 900;
+}
+
+
+.progress{
+    background-color: rgb(90,90,90);
+    justify-content: flex-start;
+    border-radius: 50px !important;
+    align-items: center;
+    position: relative;
+    display: flex;
+    height: 45px !important;
+    width: 100%;
+    margin: 10px;
+    -webkit-box-shadow: 1px 0px 176px -97px rgba(0,0,0,0.75);
+-moz-box-shadow: 1px 0px 176px -97px rgba(0,0,0,0.75);
+box-shadow: 1px 0px 176px -97px rgba(0,0,0,0.75);
+}
+.pro-value1{
+    animation: load1 3s normal forwards;
+    border-radius: 50px !important;
+    background-color: black;
+    height: 45px;
+    width: 0;
+    color: aqua;
+}
+.progress p {
+ 
+ padding-top: 10px !important;
+ padding-left: 12px;
+ display: flex;
+ flex-grow: 1;
+ justify-content: space-between;
+}
+.progress p span{
+    padding-right: 10px;
+}
+@keyframes load1{
+    0%{
+        width: 0;;
+    }100%{
+        width: 98%;
+    }
+
+}
+
+.pro-value2{
+    animation: load2 3s normal forwards;
+    border-radius: 50px;
+    background-color: black;
+    height: 40px;
+    width: 0;
+    color: #ff0;
+}
+
+.progress p {
+ 
+ padding-top: 6px;
+ padding-left: 12px;
+ display: flex;
+ flex-grow: 1;
+ justify-content: space-between;
+}
+.progress p span{
+    padding-right: 10px;
+}
+@keyframes load2{
+    0%{
+        width: 0;;
+    }100%{
+        width: 90%;
+    }
+
+}
+
+.pro-value3{
+    animation: load3 3s normal forwards;
+    border-radius: 50px;
+    background-color: black;
+    height: 40px;
+    width: 0;
+    color: #f00;
+}
+
+.progress p {
+ 
+ padding-top: 7px;
+ padding-left: 12px;
+ display: flex;
+ flex-grow: 1;
+ font-size: 15px;
+ justify-content: space-between;
+}
+.progress p span{
+    padding-right: 10px;
+}
+@keyframes load3{
+    0%{
+        width: 0;;
+    }100%{
+        width: 75%;
+    }
+
+}
+
+.pro-value4{
+    animation: load4 3s normal forwards;
+    border-radius: 50px;
+    background-color: black;
+    height: 40px;
+    width: 0;
+    color: #f0f;
+}
+
+.progress p {
+ 
+ padding-top: 6px;
+ padding-left: 12px;
+ display: flex;
+ flex-grow: 1;
+ justify-content: space-between;
+}
+.progress p span{
+    padding-right: 10px;
+}
+@keyframes load4{
+    0%{
+        width: 0;;
+    }100%{
+        width: 65%;
+    }
+
+}
+
+.btn1{
+    height: 40px;
+    width: 145px;
+    outline: none;
+    border: none;
+    background-color: #000;
+    border-radius: 6px;
+    color: white;
+}
+.btn1:hover{
+    background-color: transparent;
+    color: #000;
+    border:1px solid black;
+    transition: 0.5s;
+}
+.btn2{
+    height: 40px;
+    width: 145px;
+    outline: none;
+    border: none;
+    background-color: transparent;
+    border: 1px solid black;
+    border-radius: 6px;
+    color: black;
+}
+.btn2:hover{
+    color: white;
+    background-color: rgba(0, 0, 0, 0.834);
+    transition: 0.5s;
+}
+
+.card{
+    border: none;
+    outline: none;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+.card p{
+    color: rgb(90,90,90);
+}
+.circle{
+    height: 70px;
+    width: 70px;
+    font-size: 30px;
+    background-color: lightgrey;
+    color: black;
+    padding: 12px;
+    border-radius: 50%;
+    display: inline-block;
+    margin-bottom: 20px;
+}
+.card:hover .circle{
+ background-color: black;
+ color: white;
+ transition: 0.5s;
+}
+
+.circle:hover{
+    background-color: #000;
+    color: white;
+}
+
+.contact .btn3{
+    background-color: black;
+    color: white;
+    outline: none;
+    border-radius: 4px;
+    height: 40px;
+    width: 145px;
+}
+footer{
+    background-color: black;
+    color: white;
+}
+::-webkit-scrollbar {
+    width: 7px;
+    border-radius: 3px;
+}
+
+
+::-webkit-scrollbar-track {
+    background: #f1f1f1;
+}
+
+
+::-webkit-scrollbar-thumb {
+    background: #888;
+    border-radius: 3px;
+}
+
+
+::-webkit-scrollbar-thumb:hover {
+    background: #fff;
+}
+
+
+
+
